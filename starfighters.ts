@@ -5,7 +5,7 @@ export class MilleniumFalcon extends Spacecraft implements ContainerShip{
   cargoContainers: number;
 
   constructor(){
-    super('Hiperdriver')
+     super('Hiperdriver')
     this.cargoContainers = 4
   }
   jumpIntoHiperspace(){

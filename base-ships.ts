@@ -1,4 +1,4 @@
-class Spacecraft{
+ class Spacecraft{
   constructor(public propulsor: string){}
 
   jumpIntoHiperspace(){
@@ -7,7 +7,7 @@ class Spacecraft{
 }
 
 interface ContainerShip{
-  cargoContainers: number;
+  cargoContainers:  number;
 }
 
 export {Spacecraft, ContainerShip}
